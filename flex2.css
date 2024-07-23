@@ -1,0 +1,21 @@
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    Border: 1px solid #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* flex items */
+img {
+    width: 33%;
+    height: 180px;
+    margin: 2px;
+}
+@media screen and (max-width: 768px) {
+    img {
+        width: 49%;
+        height: 250px;
+	  margin: 16px;
+    }
+}

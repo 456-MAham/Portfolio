@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-areas: "header header header" 
+                         "leftnavigation content rightnavigation" 
+                         "footer footer footer";
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 100px 1fr 30px;
+  }
+  .header {
+    grid-area: header;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+  }
+  
+  .footer {
+    grid-area: footer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+          background-color: green;
+  }
+  .content {
+    grid-area: content;
+    background-color: gray;
+  }
+  
+  .left {
+    grid-area: leftnavigation;
+    background-color: red;
+  }
+  
+  .right {
+    grid-area: rightnavigation;
+    background-color: lightblue;
+  }
+  @media screen and (max-width: 600px) {
+    .layout {
+      grid-template-areas: "header" "leftnavigation" "content" "top navigation" "rightnavigation" "footer";
+      grid-template-columns: 100%;
+      grid-template-rows: 100px 160px 1fr 160px 100px 50px;
+    }
+}

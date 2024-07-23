@@ -1,0 +1,164 @@
+.navbar{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+  
+    text-align: center;
+    flex-direction: row;
+ 
+    justify-content:left ;
+    align-items: center;
+    overflow: hidden;
+}
+/* .header{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.bgg{
+    background-color:  #54397E;
+  
+   width: 65.8%;
+   margin: 0 auto 10px;
+}
+a{
+    text-decoration: none;
+color: white;
+position: relative;
+display: block;
+padding: 10px 15px;}
+.list{
+    color: #00812d;
+    margin: 0% -15%;
+}
+.items{
+    color: gray;
+    font-size: 15px;
+    padding: 2%;
+   
+}
+#ab:hover
+{
+    
+    color: #00812d;
+}
+.post{
+    color: black;
+    font-size: 35px;
+    padding: 2%;
+}
+.Inner-Side{
+    background-color: white;
+    margin: 10px -10px 30px;
+ width: 200px;
+   padding: 1px 40px 1px 20px;
+   font-family: 'Times New Roman', Times, serif;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.319);
+}
+#aa:hover
+{
+    text-decoration: underline;
+    color: #00812d;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-image: url(/Images/bg.jpg);
+    margin: auto;
+}
+h3{
+    background-color:  #05519490;
+   padding: 3%;
+}
+.pclass{
+    background-color:  #05519490;
+    padding: 3%;
+    width: 80%;
+}
+.pic-container {
+   
+    color: rgb(255, 255, 255);
+ width: 45%;
+ 
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+.item
+{
+display: block;
+box-sizing: border-box;
+}
+#heading{
+    font-size: 40px;
+    margin-bottom: -10px;
+    color: #54397E;
+}
+
+.small-section{
+    display: flex;
+}
+.two-section{
+    display: flex;
+   gap: 10px;
+   max-width: 1000px;
+ margin: 10px auto;
+ background-color: white;
+}
+.picture-section{
+   
+   margin: 10px 30px;
+    width: 65%;
+    background-color: white;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.319);
+    height: fit-content;
+}
+.Side-section{
+  
+   
+   
+    width: 20%;
+    
+}
+
+
+.image_banner{
+    background-image: url('/Images/3.jpg');
+    background-size: cover;
+height: 600px;
+display: flex;
+align-items:flex-end;
+
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(min-width: 800px) {
+    .header{
+    flex: auto;
+      align-items: center;
+        min-block-size: 30px;
+        max-block-size: 100px;
+        margin-left: 270px;
+     }
+  }
+
+  .container{
+   background-color:  #54397E;
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+.banner{
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+a:hover{
+    color: red;
+}
