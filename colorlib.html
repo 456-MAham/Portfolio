@@ -3,21 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    
     <title>colorlib website</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+   
 <body>
- 
-    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200  dark:to-slate-900 relative overflow-hidden">
-     <!-- navbar -->
+  <header>
+  <div class="container mx-auto flex flex-wrap justify-between items-center pb-8 py-4 px-6">
+            
+    <div class="flex items-center space-x-4">
+        <img src="./images/line8.png" alt="Logo" class="h-12">
+ </div>
+
+    
+    <div class="flex flex-wrap items-center space-x-4 mt-4 md:mt-0 md:flex-row">
+      
+        <div class="flex items-center space-x-2">
+            <i class="fa fa-user text-gray-600 text-lg md:text-xl" aria-hidden="true"></i>
+            <input type="text" placeholder="Username" class="px-2 py-1 border rounded md:w-40">
+        </div>
+       
+        <div class="flex items-center space-x-2">
+            <i class="fa fa-key text-gray-600 text-lg md:text-xl" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" class="px-2 py-1 border rounded md:w-40">
+          </div>
+</div>
+</header>
+
      <nav class="w-full fixed top-0 bg-gray-800 z-10">
       <div class="container mx-auto py-5 flex items-center justify-between">
         <div class="flex items-center gap-2">
-          <img class="w-8" src="envato.png" alt="" />
+          
         </div>
-        <ul
-          class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase"
-        >
+     
         <ul
         class="hidden md:flex space-x-10 text-white dark:text-gray-100 font-bold text-sm uppercase"
       >
@@ -63,41 +82,163 @@
       </ul>
     </div>
   </nav>
-  <div
-  class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-8 h-fit w-3/6"
->
-  <h1 class="text-6xl font-bold text-indigo-900">CREATIVE.<br> POWERFUL.<br> CUSTOMIZABLE.</h1>
-  <p class="text-gray-400 text-3xl">Lambda gives you creative freedom for your e-learning website.
+
+ 
+  <main class="container mx-auto py-10 px-6 bg-white">
+    <div class="relative"> <img src="./images/line.jpg" class="w-full h-96 object-cover rounded "> 
+    <div class="absolute inset-y-0 right-0 flex items-center justify-end p-6">
+      <div class="text-center text-gray-500 bg-white bg-opacity-70 rounded-lg shadow-lg max-w-md p-8">
+      <h1 class="text-4xl font-base">CREATIVE.<br> POWERFUL.<br> CUSTOMIZABLE.</h1>
+  
+  <p class="text-gray-400 mt-2 ">Lambda gives you creative freedom for your e-learning website.
    
   </p>
+    </div>
+    </div>
 
 </div>
-</div>
+  
+
+
+ 
+  
+
 <section>
-    <div class="h-1/2 lg:h-screen bg-white relative overflow-hidden">
-        <h class="text-center justify-center text-2xl text-color-white pt-10 m-auto ">Self-Paced Learning Courses Online</h>
-        <p class="text-center text-4xl white"> with <span class="text-3xl text-yellow">Lambda</span>- Premium Moodle Theme</p>
-        <p class="text-center text-4xl white">The perfect choice for your Moodle site</p>
    
-      <!-- card -->
-      <div
-      class="w-full h-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
-    >
-      <img src="project2.png" />
-    </div>
-     <!-- card -->
-     <div
-     class="w-full h-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
-   >
-     <img src="project1.png" />
-     <span class="text-4xl text-purple-500">educational Institutions: From elementary schools to universities, enrich teaching methodologies and engage learners effectively across diverse educational level</p>
-   </div>
-   <!-- card -->
-   <div
-   class="w-full h-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
- >
-   <img src="project3.png" />
+
+    <div class="lg:pt-0 sm:pt-64 pt-64 bg-white relative mt-16  px-4 md:px-10 xl:px-0">
+        <div class="flex flex-col justify-center  items-center flex-wrap">
+            <h2 class="text-4xl font-bold text-center text-gray-500 mt-32 md:mt-0">Self-Paced Learning Courses Online <br><br></h2>
+            <p class="text-4xl font-bold text-center text-gray-700 mt-32 md:mt-0">with <span class="text-yellow-300 text-6xl">Lambda</span> - Premium Moodle Theme</p>
+            
+            <p class="text-4xl font-bold text-center text-gray-400 mt-32 md:mt-0"> The perfect choice for your Moodle site</p>
+           
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 md:grid-row-1 gap-10 md:w-[80%] sm:[80%] sm:grid-cols-1 justify-items-center m-auto"> 
+              <div class="bg-white shadow-md rounded-lg" >
+                  <div class="p-[20px] transition-all hover:scale-110">
+            
+                  <img src="./images/line2.jpg" class="w-80 justify-self-center m-auto">
+                   
+                  <p class="mt-[10px] text-white-100 text-justify">
+                    Educational Institutions: <span class="text-gray-500"> From elementary schools to universities, enrich teaching methodologies and engage learners effectively across diverse educational levels.</span></p>
+              </div>
+          </div>
+         
+              <div class="bg-white shadow-md rounded-lg" >
+                  <div class="p-[20px] transition-all hover:scale-110">
+                      
+                  <img src="./images/line3.jpg" class="w-80 justify-self-center m-auto">
+                  <p class="mt-[10px] text-white-100 text-justify">
+                    Corporate Training: <span class="text-gray-500"> Offer internal training and employee development programs, fostering continuous learning and skill enhancement among their teams.</span></p>
+                 
  </div>
  </div>
+ <div class="bg-white shadow-md rounded-lg" >
+  <div class="p-[20px] transition-all hover:scale-110">
+      
+  <img src="./images/line5.jpg" class="w-80 justify-self-center m-auto">
+  <p class="mt-[10px] text-white-100 text-justify">
+    Online Course Platforms:: <span class="text-gray-500">Elevate your online course experiences, providing a robust and adaptable learning environment for users seeking comprehensive educational resources.</span></p>
 </section>
     
+<section>
+  <div class="lg:pt-0 sm:pt-64 pt-64 bg-white relative  px-4 md:px-10 xl:px-0">
+    <div class="flex flex-col justify-center items-center flex-wrap">
+        <h2 class="text-4xl font-bold text-center text-gray-500 mt-32 md:mt-0">Our Features <br><br></h2>
+      
+        <p class="text-justify font-bold text-center text-gray-600 mt-32 md:mt-0">Lambda is a high quality and very flexible theme with lots of powerful features and theme options.<br>
+          It lets you present your content in whatever way you like.</p>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 md:grid-row-1 gap-10 md:w-[80%] sm:[80%] sm:grid-cols-1 justify-items-center m-auto"> 
+            <div class="bg-white shadow-md rounded-lg" >
+                <div class="p-[20px] transition-all hover:scale-110 ">
+                   
+                
+                <p class=" font-medium text-gray-600 mt-[10px] text-3xl text-justify"><i class="fas fa-gear text-yellow-500 text-4xl mb-4"></i>Powerful Admin <br>Settings</p>
+                 
+                <p class="mt-[10px] text-justify">
+                  Quick and easy customization: Control style and design of your Moodle site with Lambda.</p>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg" >
+          <div class="p-[20px] transition-all hover:scale-110 ">
+             
+           
+          <p class=" font-medium text-gray-600 mt-[10px] text-3xl text-justify"> <i class="fa fa-laptop-mobile text-yellow-700 text-4xl mb-4"></i>Flexible Layout</p>
+           
+          <p class="mt-[10px] text-justify">
+            Lambda gives you the flexibility to set the preferred layout for your e-learning site.</p>
+      </div>
+  </div>
+  <div class="bg-white shadow-md rounded-lg" >
+    <div class="p-[20px] transition-all hover:scale-110 ">
+       
+      <i class="fa fa-laptop-mobile text-yellow-700 text-4xl mb-4"></i>
+    <p class=" font-medium text-gray-600 mt-[10px] text-3xl text-justify">Multilanguage</p>
+     
+    <p class="mt-[10px] text-justify">
+      100+ built-in language packs: Teach in your native language or take your courses globally.</p>
+</div>
+</div>
+</section>
+
+<section>
+  <header class="container px-4 lg:flex mt-24 items-center h-full lg:mt-0">
+    <div class="w-full">
+      <h1 class="text-xl lg:text-2xl text-center text-yellow-200 font-bold">Why choose us?</h1>
+   
+      <p class="text-3xl text-center text-gray-600 mb-10">A few reasons why our valued<br>customers choose Lambda<br>Moodle.</p>
+      <h1 class="text-xl lg:text-2xl text-center text-yellow-200 font-bold">Reliable and stable</h1>
+   
+      <p class="text-2xl text-center text-gray-600 mb-10">Daily approved and trusted by over 10,000 satisfied customers, Theme Lambda stands tall, celebrating nine years as the unparalleled #1 selling Moodle theme. Renowned for its reliability and robustness, Lambda emerges as the consistent choice, elevating the experience of your Moodle instance with its time-tested excellence.</p>
+    </div>
+  
+    
+<img src="./images/line6.jpg" alt="" class="w-full h-full block mt-12 md:h-screen sm:w-3/5">
+</div>
+
+</section>
+
+<section>
+  <h2 class="text-4xl justify-left text-left text-white-500 pt-20">Available courses</h2>
+  <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+  >
+    <img class="w-full h-full" src="./images/course-02.jpg" alt="" />
+    </div>
+    <a class="bg-yellow-500 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit justify-left"
+    href="#contact" > Click to enter this course</a>
+    
+    <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+    >
+      <img class="w-full h-full" src="./images/course-01.jpg" alt="" />
+      </div>
+      <a class="bg-yellow-500 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit justify-left"
+      href="#contact" > Click to enter this course</a>
+      <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+      >
+        <img class="w-full h-full" src="./images/course-img (1).jpg" alt="" />
+        </div>
+        <a class="bg-yellow-500 text-white text-xl px-3 py-2  rounded-md font-semibold w-fit justify-left"
+        href="#contact" > Click to enter this course</a>
+        <img class="w-80 pt-10 h-full pb-8" src="./images/course-img.jpg" alt="" />
+        </div>
+        <a class="bg-yellow-500 text-white text-xl px-3 py-2 ml-18 rounded-md font-semibold w-fit justify-left mr-80"
+        href="#contact" > Click to enter this course</a>
+</section>
+</div>
+<a class="bg-gray-500 text-white text-xl px-3 py-2  rounded-md font-semibold w-fit justify-center"
+href="#contact" > All courses</a>
+<section>
+<footer class="bg-gray-800 text-white py-6 w-full mt-12">
+  <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-yellow-500 mt-2 mb-4 md:mb-0 text-center md:text-left">© 2024 Lambda Theme for Moodle. All rights reserved.</p>
+      <div class="flex space-x-4">
+          <a href="#" class="text-yellow-500 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-yellow-500 hover:text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-yellow-500 hover:text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-yellow-500 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+  </div>
+    </footer>
+</section>
+</body>
+</html>
